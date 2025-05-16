@@ -70,3 +70,5 @@ Use Case Diagrams are a type of UML (Unified Modeling Language) diagram used in 
 * **Aids in understanding the scope of the system.**
 
 **Use Case Diagram for the Booking System:**
+![alx-booking-uc](https://github.com/user-attachments/assets/cbb9129e-e543-46b1-9116-49d937a2b885)
+
