@@ -57,18 +57,3 @@ Non-functional requirements define the quality attributes of the system. They de
 * **Scalability:** The system shall be able to handle a 50% increase in the number of concurrent users during peak seasons without significant performance degradation.
 * **Maintainability:** The system architecture shall be modular to allow for easy modification and addition of new features.
 
-## Use Case Diagrams
-
-Use Case Diagrams are a type of UML (Unified Modeling Language) diagram used in requirement analysis to visually represent the interactions between users (actors) and the system. They illustrate the different ways users can interact with the system to achieve specific goals.
-
-**Benefits of Use Case Diagrams:**
-
-* **Provides a clear overview of system functionality from a user's perspective.**
-* **Helps in identifying all the actors and their interactions with the system.**
-* **Facilitates communication between stakeholders and the development team.**
-* **Serves as a basis for defining functional requirements and test cases.**
-* **Aids in understanding the scope of the system.**
-
-**Use Case Diagram for the Booking System:**
-![alx-booking-uc](https://github.com/user-attachments/assets/cbb9129e-e543-46b1-9116-49d937a2b885)
-
