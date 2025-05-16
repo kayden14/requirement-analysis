@@ -72,6 +72,93 @@ Use Case Diagrams are a type of UML (Unified Modeling Language) diagram used in 
 
 **Use Case Diagram for the Booking System:**
 ![alx-booking-uc.png](https://github.com/user-attachments/assets/1ed93cbb-b894-4891-a300-4c013bf617af)
-![Booking System Use Case Diagram](alx-booking-uc.png)
 
+Acceptance Criteria
+Acceptance Criteria are a set of predefined conditions that a system or feature must satisfy to be accepted by a user, customer, or other stakeholder. They define the boundaries of a requirement and provide a clear and measurable way to determine if the requirement has been met.
+
+Importance of Acceptance Criteria in Requirement Analysis:
+
+Clarity and Shared Understanding: Acceptance criteria ensure that everyone involved (developers, testers, product owners, and stakeholders) has a common understanding of what constitutes a successful implementation of a feature.
+
+Testability: They provide a solid basis for writing test cases, enabling testers to verify that the implemented feature meets the defined conditions.
+
+Reduces Ambiguity: Well-defined acceptance criteria minimize ambiguity in the requirements, leading to less confusion and fewer misunderstandings during development and testing.
+
+Focus on User Needs: They help to ensure that the development effort is focused on delivering features that truly meet the users' needs and expectations.
+
+Facilitates Validation: Acceptance criteria make it easier to validate that the final product aligns with the stakeholders' expectations.
+
+Defines "Done": They provide a clear definition of when a feature is considered complete, helping to manage scope and prevent feature creep.
+
+Example of Acceptance Criteria for the "Checkout" Feature in the Booking Management System:
+
+Feature: Checkout
+
+Acceptance Criteria:
+
+Scenario 1: Display Booking Summary
+
+Given: A user has selected a property and booking dates.
+
+When: The user navigates to the checkout page.
+
+Then: The system should display a summary of the booking, including:
+
+Property name and image.
+
+Check-in and check-out dates.
+
+Number of guests.
+
+Scenario 2: Calculate and Display Costs
+
+Given: A user has selected a property, booking dates, and number of guests.
+
+When: The user is on the checkout page.
+
+Then: The system should:
+
+Calculate the subtotal based on the nightly rate and the duration of stay.
+
+Calculate any applicable taxes.
+
+Display the subtotal, taxes, and the final total cost.
+
+Scenario 3: Confirm Booking
+
+Given: A user has reviewed the booking summary and is ready to confirm.
+
+When: The user clicks the "Confirm Booking" button.
+
+Then: The system should:
+
+Display a "Booking Successful" message to the user.
+
+Send a booking confirmation email to the user's registered email address.
+
+Redirect the user to a "Booking Confirmation" page.
+
+Scenario 4: Handle Missing Information
+
+Given: A user attempts to confirm a booking without providing all necessary information (e.g., payment details).
+
+When: The user clicks the "Confirm Booking" button
+
+Then: The system should:
+
+Display an error message to the user, indicating the missing information.
+
+Keep the user on the checkout page so that they can correct the error.
+
+Scenario 5:  Property Unavailable
+
+Given:  A user attempts to confirm a booking, but the property is no longer available for the selected dates.
+
+When: The user clicks the "Confirm Booking" button.
+
+Then: The system should:
+
+Display an error message indicating that the property is no longer available.
+
+Redirect the user to the property search page or the booking details page.
 
