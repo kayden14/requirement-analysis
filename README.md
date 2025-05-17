@@ -71,7 +71,7 @@ Use Case Diagrams are a type of UML (Unified Modeling Language) diagram used in 
 * **Aids in understanding the scope of the system.**
 
 **Use Case Diagram for the Booking System:**
-![alx-booking-uc.png](https://github.com/user-attachments/assets/1ed93cbb-b894-4891-a300-4c013bf617af)
+![alx-booking-uc](https://github.com/user-attachments/assets/e2647804-ea96-4dce-bf14-238202a49e84)
 
 Acceptance Criteria
 Acceptance Criteria are a set of predefined conditions that a system or feature must satisfy to be accepted by a user, customer, or other stakeholder. They define the boundaries of a requirement and provide a clear and measurable way to determine if the requirement has been met.
